@@ -1,0 +1,63 @@
+
+.container-1{
+	display:flex;
+	justify-content: center;
+}
+
+@media(min-width: 768px){
+	.container-2{
+		display:flex;
+		justify-content:center;
+	}
+}
+
+
+.box-1{
+	flex:1;
+	order:3;
+}
+
+.box-2{
+	flex:1;
+	order:1;
+}
+
+.box-3{
+	flex:1;
+	order:2;
+}
+
+
+body{
+	background-color: grey;
+	color: darkblue;
+	font-family: Calibri;
+	/*
+	text-align: center;
+	*/
+}
+
+.container-1 div, .container-2 div{
+	padding:5px;
+	/*
+	border:1px #ccc solid;
+	*/
+}
+
+.important{
+	text-decoration: underline;
+	font-weight: bold;
+}
+ul{
+	list-style-type: square;
+	list-style-position: inside;
+	padding-left: 0;
+}
+
+ol{
+	list-style-position: inside;
+	padding-left: 0;
+}
+#extra{
+	
+}
